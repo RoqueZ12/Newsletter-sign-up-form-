@@ -1,0 +1,68 @@
+.cardThanks-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+  border-radius: 20px;
+  border: none;
+  background: var(--White);
+  width: 50%;
+  margin: auto;
+}
+
+.top{
+  height: 50px;
+  text-align: left;
+  margin-top: 1rem;
+}
+.top img {
+  max-height: 100%; /* Ajusta la altura máxima para que la imagen no se estire */
+  /* Ajusta el tamaño de la imagen */
+  width: 80px; /* Cambia el ancho según sea necesario */
+}
+ .mid{
+  padding: 1rem;
+ }
+.mid p{
+  font-size: 0.75rem;
+  line-height: 1.2rem;
+  margin-top: 1rem;
+}
+.bottom{
+  margin: 0 1rem;
+  margin-bottom: 1.2rem;
+}
+.bottom button{
+  width: 100%;
+  padding: 0.8rem;
+  color: var(--White);
+  font-weight: bold;
+  background-color: var(--Dark-Slate-Grey);
+  border-radius: 10px;
+  font-size: 0.75rem;
+  border: none;
+  cursor: pointer;
+}
+button:hover{
+  background-color: var(--Tomato);
+  border: 1px solid var(--Tomato);
+  box-shadow: 1px  3px 15px var(--Tomato);
+}
+@media screen and (max-width:640px) {
+  .cardThanks-container{
+    display: flex;
+    width: 75%;
+    padding: 0 1rem;
+    border-radius: 0;
+  }
+  .top{
+    margin-top: 10rem;
+  }
+  .bottom{
+    margin-top: 15rem;
+
+  }
+  .bottom button{
+    padding: 1rem;
+  }
+}
