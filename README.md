@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/RoqueZ12/Newsletter-sign-up-form-
+- Live Site URL: https://roquez12.github.io/Newsletter-sign-up-form-/
 
 ## My process
 
